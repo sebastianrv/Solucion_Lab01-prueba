@@ -17,6 +17,10 @@ namespace Solucion_Lab01
             if (ListaSoldados == null)
                 ListaSoldados = new List<CSoldado>();
         }
+        public bool existeSecretario()
+        {
+            return 0;
+        }
         public bool ExisteCuartel(string codigo)
         {
             return ListaCuarteles.Exists(p => p.Codigo == codigo);
